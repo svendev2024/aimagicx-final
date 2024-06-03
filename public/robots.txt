@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://app.aimagicx.com/sitemap.xml
+"

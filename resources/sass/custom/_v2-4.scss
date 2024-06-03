@@ -1,0 +1,14 @@
+/* ==========================================================================           
+ *
+ *    v2.4 CSS Updates
+ *
+ * ========================================================================== */
+ 
+ .select2-container {
+	width: 100%!important;
+
+	.select2-container--default .select2-selection--single .select2-selection__rendered {
+		color: #fff!important;
+		font-size: 12px!important;
+	}
+ }

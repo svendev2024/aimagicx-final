@@ -1,0 +1,46 @@
+
+// Typography :root 16px
+$font-family-primary: 'Poppins', sans-serif;
+$font-family-secondary: 'Poppins', sans-serif;
+$font-size-large: 0.875rem; //14px
+$font-size-small: 0.75rem; //12px
+
+//Global Colors
+$body-background:#f5f9fc;
+$text-color:#1e1e2d;
+
+//Button Colors
+$btnPrimaryBGColor: #007bFF;
+$btnCancelBGColor:#D13212;
+$btnMainBGColor: #007bFF;
+
+//Color Variables
+$primaryTextColor: #1e1e2d;
+$primaryBGColor: #f5f9fc;
+$primaryTextActiveColor: #007BFF;
+$primaryTextHoverColor: #007BFF;
+$primary:#007BFF; 
+$secondary:#fb1c52;
+$pink:#ec82ef;
+$teal:#2bcbba;
+$cyan:#17a2b8;
+$purple:#aa4cf2;
+$success:#38cb89;
+$warning:#ffab00;
+$danger:#ef4b4b;
+$info:#5b7fff;
+$orange:#fc7303;
+$dark:#343a40;
+$indigo:#6574cd;
+$gray:#868e96;
+$white:#fff;
+$black:#000;
+$green: #008c00;
+
+
+//Border Color
+$border:#ebecf1;
+
+//Shadow Variables
+$card-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+$special-shadow: 0 1px 3px 0 rgb(50 50 50 / 20%), 0 2px 1px -1px rgb(50 50 50 / 12%), 0 1px 1px 0 rgb(50 50 50 / 14%);

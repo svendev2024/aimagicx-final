@@ -1,0 +1,57 @@
+/* ==========================================================================           
+ *
+ *    DASHBOARD
+ *
+ * ========================================================================== */
+
+ .text-white {
+	&:hover, &:focus {
+		color: $primaryTextActiveColor!important;
+	}
+ }
+
+
+
+ /* ==========================================================================           
+ *
+ *    ADMIN USER LIST
+ *
+ * ========================================================================== */
+
+ .dt-buttons {
+
+	margin-top: 5px;
+
+	.dt-button {
+		font-size: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 35px;
+		text-transform: uppercase;
+		color: #fff !important;
+		border-color: $primaryTextActiveColor;
+		box-shadow: 0 1px 3px 0 rgba(50, 50, 50, 0.2), 0 2px 1px -1px rgba(50, 50, 50, 0.12), 0 1px 1px 0 rgba(50, 50, 50, 0.14);
+		background: $primaryTextActiveColor;
+		min-width: 70px;
+
+		&:hover, &:focus {
+			background-color: #1e1e2f!important;
+			background: #1e1e2f!important;
+		}
+	}
+ }
+
+
+
+ /* ==========================================================================           
+ *
+ *    AI CHAT BOT
+ *
+ * ========================================================================== */
+
+ .chat-main-container {
+	::-webkit-scrollbar {
+		width: 2px!important;
+		border: 1px solid #EDF8FD!important;
+	}
+ }

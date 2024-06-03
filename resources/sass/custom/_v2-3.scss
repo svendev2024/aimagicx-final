@@ -1,0 +1,190 @@
+/* ==========================================================================           
+ *
+ *    v2.3 CSS Updates
+ *
+ * ========================================================================== */
+ 
+#voiceover-character-counter {
+	position: absolute;
+	right: 2rem;
+}
+
+#dashboard-background {
+	background-color: #E7F8FF;
+	background-image: url(/img/files/waves.png);
+	background-size: cover;
+}
+
+.richText-toolbar:has(.richText-undo) {
+	display: none;
+}
+
+.template-icon {
+
+	i.marketing-icon,
+	i.ad-icon {
+		background: #FFE2E5; 
+		color: #ff0000;
+		font-size: 16px;
+		padding: 7px;
+		border-radius: 5px;
+	}
+
+	i.framework-icon {
+		background: #cde4e8;
+    	color: #087990;
+		font-size: 16px;
+		padding: 7px;
+		border-radius: 5px;
+	}
+
+	i.ecommerce-icon {
+		background: #E1F0FF;
+    	color: #007bff;
+		font-size: 16px;
+		padding: 7px;
+		border-radius: 5px;
+	}
+}
+
+.side-word-notification {
+    padding: 5px 20px;
+}
+
+.font-weight-600 {
+	font-weight: 600!important;
+}
+
+.upgrade-action-button {
+	&:hover, &:focus {
+		color: $primaryTextActiveColor!important;
+	}
+}
+
+hr:not([size]) {
+    height: 0px;
+}
+
+hr {
+	opacity: 1;
+}
+.template {
+
+	.card-body {
+		min-height: 165px;
+	}
+
+	.btn-new {
+		line-height: 1;
+		padding-left: 12px;
+		padding-right: 12px;
+		border-radius: 35px;
+		color: #fff !important;
+		background-color: #007bff;
+		border-color: #007bff;
+		box-shadow: 0 1px 3px 0 rgba(50, 50, 50, 0.2), 0 2px 1px -1px rgba(50, 50, 50, 0.12), 0 1px 1px 0 rgba(50, 50, 50, 0.14);
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+		z-index: 10;
+	}
+
+	.btn-new-free {
+		right: 75px!important;
+	}
+
+	.btn-new-pro {
+		right: 70px!important;
+	}
+
+	.btn-new-premium {
+		right: 94px!important;
+	}
+}
+
+.template-view {
+	.btn-new {
+		line-height: 1;
+		padding-left: 12px;
+		padding-right: 12px;
+		border-radius: 35px;
+		color: #fff !important;
+		background-color: #007bff;
+		border-color: #007bff;
+		box-shadow: 0 1px 3px 0 rgba(50, 50, 50, 0.2), 0 2px 1px -1px rgba(50, 50, 50, 0.12), 0 1px 1px 0 rgba(50, 50, 50, 0.14);
+		cursor: pointer;
+	}
+
+	.btn-free {
+		line-height: 1;
+		padding-left: 12px;
+		padding-right: 12px;
+		border-radius: 35px;
+		color: #fff !important;
+		background-color: #1e1e2d;
+		border-color: #1e1e2d;
+		box-shadow: 0 1px 3px 0 rgba(50, 50, 50, 0.2), 0 2px 1px -1px rgba(50, 50, 50, 0.12), 0 1px 1px 0 rgba(50, 50, 50, 0.14);
+		z-index: 10;
+		cursor: pointer;
+	}
+
+	.btn-premium {
+		line-height: 1;
+		padding-left: 12px;
+		padding-right: 12px;
+		border-radius: 35px;
+		color: #fff !important;
+		background-color: #1e1e2d;
+		border-color: #1e1e2d;
+		box-shadow: 0 1px 3px 0 rgba(50, 50, 50, 0.2), 0 2px 1px -1px rgba(50, 50, 50, 0.12), 0 1px 1px 0 rgba(50, 50, 50, 0.14);
+		z-index: 10;
+		cursor: pointer;
+	}
+
+	.btn-pro {
+		line-height: 1;
+		padding-left: 12px;
+		padding-right: 12px;
+		border-radius: 35px;
+		color: #fff !important;
+		background-color: $primaryTextActiveColor;
+		border-color: $primaryTextActiveColor;
+		box-shadow: 0 1px 3px 0 rgba(50, 50, 50, 0.2), 0 2px 1px -1px rgba(50, 50, 50, 0.12), 0 1px 1px 0 rgba(50, 50, 50, 0.14);
+		z-index: 10;
+		cursor: pointer;
+	}
+}
+
+.ad-icon {
+	font-size: 16px;
+    padding: 7px;
+    background: #FFE2E5; 
+	color: #ff0000;
+    border-radius: 5px;
+}
+
+.ecommerce-icon {
+	font-size: 16px;
+    padding: 7px;
+    background: #E1F0FF;
+    color: #007bff;
+    border-radius: 5px;
+}
+
+.framework-icon {
+	font-size: 16px;
+    padding: 7px;
+    background: #cde4e8;
+    color: #087990;
+    border-radius: 5px;
+}
+
+.marketing-icon {
+	font-size: 16px;
+    padding: 7px;
+    background: #FFE2E5; 
+	color: #ff0000;
+    border-radius: 5px;
+}
+
+

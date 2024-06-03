@@ -1,0 +1,22 @@
+/* ==========================================================================           
+ *
+ *    v2.2 CSS Updates
+ *
+ * ========================================================================== */
+ 
+#awselect_openai-key-usage,
+#awselect_sd-key-usage {
+	margin-bottom: 0;
+}
+
+#chat-search-panel {
+	#search-template {
+		margin-bottom: 2rem;
+		box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	}
+}
+
+.local-menu {
+	max-height: 300px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,68 @@
+/* ==========================================================================           
+ *
+ *    LOGIN PAGE
+ *
+ * ========================================================================== */
+
+#login-google {
+    background: #DB4437;
+    color: #FFF;
+    border-radius: 3px;
+
+    &:hover, &:focus {
+        background-color: $primaryTextColor;
+    }
+}
+
+#login-facebook {
+   background: #4267B2;
+   color: #FFF;
+   border-radius: 3px;
+
+   &:hover, &:focus {
+       background-color: $primaryTextColor;
+   }
+}
+
+#login-twitter {
+    background: #1DA1F2;
+    color: #FFF;
+    border-radius: 3px;
+
+    &:hover, &:focus {
+       background-color: $primaryTextColor;
+   }
+}
+
+#login-linkedin {
+   background: #0e76a8;
+   color: #FFF;
+   border-radius: 3px;
+
+   &:hover, &:focus {
+      background-color: $primaryTextColor;
+  }
+}
+
+#login-footer {
+   bottom: 0;
+   left: 32.5%;
+}
+
+.invalid-feedback {
+   font-size: 10px!important;
+   color: #ff3547!important;
+}
+
+#login-background {
+   background-position: center;
+   vertical-align: middle;
+
+   .login-bg {
+      background-image: url(/img/files/login-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+  
+   }
+}

@@ -1,0 +1,62 @@
+/* ==========================================================================           
+ *
+ *    USER DASHBOARD
+ *
+ * ========================================================================== */
+
+ #user-dashboard-panels {
+	.favorite-templates-panel {
+		max-height: 600px;
+		overflow-y: scroll;
+ 	}
+
+	 ::-webkit-scrollbar {
+		width: 2px!important;
+		border: 1px solid #EDF8FD!important;
+	}
+}
+
+#user-dashboard-background {
+	background-color: #E7F8FF;
+	border-radius: 8px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding: 1rem;
+	background-image: url(/img/files/waves.png);
+    background-size: cover;
+	background-position: center;
+
+	.yellow {
+		background-color: #FF9D00;
+		border-color: #FF9D00;
+
+		&:hover, &:focus {
+			background-color: $primaryTextColor;
+			border-color: $primaryTextColor;
+		}
+	}
+}
+
+.user-dashboard-special-box {
+	box-shadow: none!important;
+	border-color: #f5f9fc;
+	margin-bottom: 0.5rem;
+}
+
+.user-dashboard-button {
+	vertical-align: baseline;
+}
+
+
+ /* ==========================================================================           
+ *
+ *    AI IMAGES
+ *
+ * ========================================================================== */
+
+ .ai-image-special {
+	height: 50px;
+	min-width: 50px;
+ }
+
+

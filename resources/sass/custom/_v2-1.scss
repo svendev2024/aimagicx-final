@@ -1,0 +1,98 @@
+/* ==========================================================================           
+ *
+ *    TEMPLATES
+ *
+ * ========================================================================== */
+ .templates-nav-header {
+	border-radius: 1rem;
+	.card-body {
+		padding: 1rem;
+	}
+ }
+
+ .templates-nav-menu {
+
+	.template-nav-menu-inner {
+		padding: 10px;
+		background-color: $body-background;
+		border-radius: 50vh
+	}
+
+	.nav-tabs {
+
+		display: flex;
+		border-bottom: none;
+		overflow: overlay;
+		flex-wrap: nowrap!important;
+		white-space: nowrap!important;
+		overflow-y: hidden;
+
+		.nav-link {
+			font-size: 12px;
+			margin-right: 0.7rem;
+			min-width: 80px;
+			padding-left: 15px;
+			padding-right: 15px;
+			border-radius: 35px;
+			color: #1e1e2d;
+			border: none;
+			font-weight: 600;
+			margin-bottom: 0!important;
+
+			&:hover, &:focus {
+				background-color: #1e1e2d;
+				color: #FFF;
+				border-color: #1e1e2d;
+				box-shadow: 0 1px 3px 0 rgba(50, 50, 50, 0.2), 0 2px 1px -1px rgba(50, 50, 50, 0.12), 0 1px 1px 0 rgba(50, 50, 50, 0.14);
+			}
+		}
+
+		.active {
+			background-color: #1e1e2d;
+			color: #FFF;
+    		border-color: #1e1e2d;
+			box-shadow: 0 1px 3px 0 rgba(50, 50, 50, 0.2), 0 2px 1px -1px rgba(50, 50, 50, 0.12), 0 1px 1px 0 rgba(50, 50, 50, 0.14);
+		}
+	}
+
+	::-webkit-scrollbar {
+		height: 2px!important;
+		border: 1px solid #EDF8FD!important;
+	}
+ }
+
+ .search-template {
+	.input-box {
+
+		margin-bottom: 1rem;
+
+		.form-control {
+			height: 48px;
+			line-height: 48px;
+			padding: 0 20px;
+			background-color: #FFF!important;
+			border-radius: 50vh;
+			border-color: $body-background;
+
+			&:focus {
+				border-color: #007bff;
+			}
+
+		}
+	}
+ }
+
+ .btn-yellow {
+	background-color: #AB54EB!important;
+	border-color: #AB54EB!important;
+ }
+
+ .templates-panel-group {
+    margin-bottom: 0.5rem;
+ }
+
+ .dataTable tbody tr.shown + tr td:first-of-type {
+	border-top: 0;
+ }
+
+
